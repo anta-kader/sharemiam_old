@@ -4,20 +4,26 @@ IF11 / LO10
 
 ## Technologies 
 
-Express JS
-CouchDB
+- [ExpressJS](http://expressjs.com/)
+- [CouchDB](http://couchdb.apache.org/)
 
 ## Installation du projet
 
-Cloner le répertoire
---> git clone https://github.com/anta-kader/sharemiam
+- Cloner le répertoire
+```sh
+$ git clone https://github.com/anta-kader/sharemiam
+```
 
-Installer les modules Node dans le projet
---> cd sharemiam/
---> npm install
+- Installer les modules Node dans le projet
+```sh
+$ cd sharemiam/
+$ npm install
+```
 
 Lancer le projet 
---> npm start
+```sh
+$ npm start
+```
 
 ## Services utilisés
 
@@ -25,5 +31,4 @@ Lancer le projet
 
 ## Références
 
-Express - http://expressjs.com/
 ...
