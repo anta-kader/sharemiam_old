@@ -8,6 +8,10 @@ var bodyParser = require('body-parser');
 var index = require('./routes/index');
 var users = require('./routes/users');
 
+//Auth0 requirements
+var passport = require('passport');
+var Auth0Strategy = require('passport-auth0');
+
 var app = express();
 
 // view engine setup
