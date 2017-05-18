@@ -27,8 +27,8 @@ $ npm start
 
 ## Services utilisés
 
-...
+* [Auht0](https://auth0.com/)
 
 ## Références
 
-...
+* [Tutoriel Auth0 - Express](https://auth0.com/docs/quickstart/webapp/nodejs/01-login)
