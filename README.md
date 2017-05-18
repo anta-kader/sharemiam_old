@@ -20,6 +20,8 @@ $ cd sharemiam/
 $ npm install
 ```
 
+- Copier le fichier .env.example en .env puis renseigner les valeurs demander
+
 Lancer le projet 
 ```sh
 $ npm start
