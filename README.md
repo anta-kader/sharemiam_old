@@ -24,6 +24,23 @@ Lancer le projet
 ```sh
 $ npm start
 ```
+Vous trouverez le site à l'adresse suivante : http://localhost:3000/
+
+## Bonnes pratiques
+
+* Ne pas faire de modification directement sur la branche master !
+* Créer sa propre branche comme ci-dessous puis faire de merge request.
+* Penser à faire un pull de la branche master régulièrement
+
+```sh
+$ git checkout -b nom_de_votre_branche
+```
+> Cette commande vous permettra de créer votre branche et vous déplacer dessus
+
+```sh
+$ git push origin nom_de_votre_branche
+```
+> Avec cette commande, faites un push sur votre branche (si elle n'existe pas dans le repos, elle sera automatiquement crée)
 
 ## Services utilisés
 
@@ -31,4 +48,5 @@ $ npm start
 
 ## Références
 
+* [Documentation Git](https://git-scm.com/documentation)
 * [Tutoriel Auth0 - Express](https://auth0.com/docs/quickstart/webapp/nodejs/01-login)
